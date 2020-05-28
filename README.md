@@ -196,3 +196,15 @@ Previous features that were in sortphotos.py but have not yet been reincorporate
 Copyright (c) 2013, S. Andrew Ning.  All rights reserved.
 
 All code is licensed under [The MIT License](http://opensource.org/licenses/mit-license.php).
+
+# My commands
+python sortphotos.py --keep-duplicates --sort %Y-%m -r "C:\Users\Ricardo\OneDrive\Imagens\iCloud Photos" C:\Users\Ricardo\OneDrive\Imagens
+
+python sortphotos.py --keep-duplicates --sort %Y-%m --rename %Y%m%d_%H%M%S -r "/cygdrive/c/Users/Ricardo/OneDrive/Imagens/Desorganizado" "/cygdrive/c/Users/Ricardo/OneDrive/Imagens"
+
+python sortphotos.py -h
+
+cd /cygdrive/c/sortphotos-master/src
+
+python sortphotos.py --keep-duplicates --sort %Y-%m --rename %Y%m%d_%H%M%S -r "/cygdrive/c/Teste" "/cygdrive/c/Teste"
+20190822_225619190_iOS
